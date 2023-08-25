@@ -31,7 +31,7 @@
             </div>
 
 
-            <footer class="pb-4">
+            <footer class="pb-4 opacity-60">
                 <div class="flex text-sm items-start justify-center gap-2 text-white">
                     <span>Website made by me with</span>
                     
