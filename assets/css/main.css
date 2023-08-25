@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: url('../public/illustration.png'), url('../public/bg-grainy.png');
+    background-position: top right, left top;
+    background-repeat: no-repeat;
+}
+
+h1, h2 {
+    font-family: 'Lora', serif;
+}
+
+@media (max-width: 900px) {
+    body {
+        background-size: 250px 250px, auto;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-size: 140px 140px, auto;
+    }
+}
