@@ -5,7 +5,7 @@
 
             <div>
                 <p class="text-white tracking-tight text-base md:text-xl mb-4">
-                    Hi, thanks for stopping by! I’m
+                    Hi, thanks for stopping by! <span>&#128512;</span> I’m
                 </p>
 
                 <div class="max-w-[592px]">

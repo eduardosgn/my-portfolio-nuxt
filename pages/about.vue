@@ -7,14 +7,22 @@
 
             <div class="border-2 mt-5 mb-8 border-white border-solid w-32 h-[1px]"></div>
 
-            <div class="flex gap-4 items-start flex-col xl:flex-row xl:items-center max-w-[720px]">
+            <div class="flex gap-5 items-start flex-col xl:flex-row xl:items-center max-w-[720px]">
                 <img 
                     class="w-32 md:w-48 rounded-full grayscale hover:grayscale-0 transition-all" 
                     src="/eunovo.jpg" 
                     alt="Eduardo Nascimento"
                 >
 
-                <p>Hello! I'm Eduardo, UX/UI Designer, Graphic Designer and Front-end Dev. with 5 years of experience in web design. I've graduated in Graphic Design at Unicuritiba (Curitiba/PR - Brazil) back in 2018. My mission is to create digital solutions that are efficient, accessible and provide a good experience for the end user.</p>
+                <div>
+                    <p>Hello! I'm Eduardo UX/UI Designer, Graphic Designer and Front-end Dev. with 5 years of experience in web design. I've graduated in Graphic Design at Unicuritiba (Curitiba/PR - Brazil) back in 2018. My mission is to create digital solutions that are efficient, accessible and provide a good experience for the end user.</p>
+    
+                    <a href="mailto:eduardosgn19@gmail.com" class="flex items-center gap-2 mt-6">
+                        <img src="/forward_to_inbox.png" alt="E-mail">
+                        <p class="font-bold">eduardosgn19@gmail.com</p>
+                    </a>
+                </div>
+
             </div>
 
             <div class="border-2 my-8 border-white border-solid w-32 h-[1px]"></div>
