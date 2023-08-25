@@ -20,29 +20,29 @@
                 </div>
 
                 <div class="flex justify-between w-full mt-10">
-                    <Button link="/" text_btn btn_text="About me" btn_img="/open_in_new.svg" />
+                    <Button link="/about" text_btn btn_text="About me" btn_img="/open_in_new-01.png" />
     
                     <div class="flex gap-2 md:gap-4">
                         <Button target="_blank" link="https://www.behance.net/eduardosgndfc0" alt_text="Behance" btn_img="/behance-01.png" />
-                        <Button link="https://www.linkedin.com/in/edusgn/" alt_text="LinkedIn" btn_img="/linkedin-01.png" />
-                        <Button link="https://www.instagram.com/___edusgn/" alt_text="Instagram" btn_img="/insta-01.png" />
+                        <Button target="_blank" link="https://www.linkedin.com/in/edusgn/" alt_text="LinkedIn" btn_img="/linkedin-01.png" />
+                        <Button target="_blank" link="https://www.instagram.com/___edusgn/" alt_text="Instagram" btn_img="/insta-01.png" />
                     </div>
                 </div>
             </div>
 
 
             <footer class="pb-4 opacity-60">
-                <div class="flex text-sm items-start justify-center gap-2 text-white">
+                <div class="flex md:text-base text-xs items-center justify-center gap-1 text-white">
                     <span>Website made by me with</span>
                     
                     <nuxt-link to="https://nuxt.com/">
-                        <img class="w-[65px]" src="/nuxt_logo-01.png"/>
+                        <img alt="Nuxt" class="w-[50px] md:w-[65px]" src="/nuxt_logo-01.png"/>
                     </nuxt-link>
 
                     <span>and</span>
 
                     <nuxt-link to="https://tailwindcss.com/">
-                        <img class="w-[120px]" src="/tailwindcss-logotype-01.png"/>
+                        <img alt="TailwindCSS" class="w-[100px] md:w-[120px]" src="/tailwindcss-logotype-01.png"/>
                     </nuxt-link>
                 </div>
             </footer>

@@ -15,7 +15,7 @@ h1, h2 {
     font-family: 'Lora', serif;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     body {
         background-size: 250px 250px, auto;
     }
