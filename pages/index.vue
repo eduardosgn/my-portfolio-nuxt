@@ -23,9 +23,9 @@
                     <Button link="/" text_btn btn_text="About me" btn_img="/open_in_new.svg" />
     
                     <div class="flex gap-2 md:gap-4">
-                        <Button target="_blank" link="https://www.behance.net/eduardosgndfc0" alt_text="Behance" btn_img="/behance.svg" />
-                        <Button link="https://www.linkedin.com/in/edusgn/" alt_text="LinkedIn" btn_img="/linkedin.svg" />
-                        <Button link="https://www.instagram.com/___edusgn/" alt_text="Instagram" btn_img="/insta.svg" />
+                        <Button target="_blank" link="https://www.behance.net/eduardosgndfc0" alt_text="Behance" btn_img="/behance-01.png" />
+                        <Button link="https://www.linkedin.com/in/edusgn/" alt_text="LinkedIn" btn_img="/linkedin-01.png" />
+                        <Button link="https://www.instagram.com/___edusgn/" alt_text="Instagram" btn_img="/insta-01.png" />
                     </div>
                 </div>
             </div>
@@ -36,13 +36,13 @@
                     <span>Website made by me with</span>
                     
                     <nuxt-link to="https://nuxt.com/">
-                        <img src="/nuxt_logo.svg"/>
+                        <img class="w-[65px]" src="/nuxt_logo-01.png"/>
                     </nuxt-link>
 
                     <span>and</span>
 
                     <nuxt-link to="https://tailwindcss.com/">
-                        <img class="w-[120px]" src="/tailwindcss-logotype.svg"/>
+                        <img class="w-[120px]" src="/tailwindcss-logotype-01.png"/>
                     </nuxt-link>
                 </div>
             </footer>
