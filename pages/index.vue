@@ -5,7 +5,7 @@
 
             <div>
                 <p class="text-white tracking-tight text-base md:text-xl mb-4">
-                    Hi, thanks for stopping by! i’m
+                    Hi, thanks for stopping by! I’m
                 </p>
 
                 <div class="max-w-[592px]">
@@ -36,13 +36,13 @@
                     <span>Website made by me with</span>
                     
                     <nuxt-link to="https://nuxt.com/">
-                        <nuxt-img src="/nuxt_logo.svg"/>
+                        <img src="/nuxt_logo.svg"/>
                     </nuxt-link>
 
                     <span>and</span>
 
                     <nuxt-link to="https://tailwindcss.com/">
-                        <nuxt-img class="w-[120px]" src="/tailwindcss-logotype.svg"/>
+                        <img class="w-[120px]" src="/tailwindcss-logotype.svg"/>
                     </nuxt-link>
                 </div>
             </footer>

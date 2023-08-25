@@ -22,11 +22,11 @@
             v-if="text_btn"
         >
             <span>{{ btn_text }}</span>
-            <nuxt-img :src="btn_img" class="w-[22px] h-[22px]" />
+            <img :src="btn_img" class="w-[22px] h-[22px]" />
         </div>
 
         <div v-else class="border-2 border-violet rounded-[20px] p-4 md:p-6 transition-all hover:bg-violet">
-            <nuxt-img :src="btn_img" class="w-7 h-7 md:w-12 md:h-12" />
+            <img :src="btn_img" class="w-7 h-7 md:w-12 md:h-12" />
         </div>
     </nuxt-link>
 </template>
