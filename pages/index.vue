@@ -33,7 +33,7 @@
 
             <footer class="pb-4 opacity-60">
                 <div class="flex md:text-base text-xs items-center justify-center gap-1 text-white">
-                    <span>Website made by me with</span>
+                    <span>Made with</span>
                     
                     <nuxt-link to="https://nuxt.com/">
                         <img alt="Nuxt" class="w-[50px] md:w-[65px]" src="/nuxt_logo-01.png"/>
